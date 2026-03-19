@@ -12,9 +12,9 @@ b1.addEventListener("click",function(){
         info.innerHTML="👦🏻 Сильнейший стендоффер на районе";
         }else  if (username.value =="Артур" || username.value =="читер" ){
         info.innerHTML="Был в бане за читы на 50 дней";
-        }else if (username.value =="..." || username.value =="..." ){
-        info.innerHTML="...";
-        }else  info.innerHTML="Пользователь не найден";
+        }else if (username.value =="Макар" || username.value =="Макарон" ){
+        info.innerHTML="Добрый друг Беспалова. Любит стендовчик.";
+        }else info.innerHTML="Пользователь не найден";
         
         username.value ="";}
     )
@@ -27,3 +27,4 @@ function changeColor () {
     document.body.style.backgroundColor=random;
 }
 dma.addEventListener("click", changeColor); 
+
