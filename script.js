@@ -27,4 +27,3 @@ function changeColor () {
     document.body.style.backgroundColor=random;
 }
 dma.addEventListener("click", changeColor); 
-
